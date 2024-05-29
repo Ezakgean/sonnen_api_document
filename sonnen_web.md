@@ -38,3 +38,29 @@ Os desenvolvedores têm a liberdade de escolher o formato de dados que mais se a
 
 ### JSON *(JavaScript Object Notation)*
 
+
+JSON (JavaScript Object Notation) é um formato de notação de objetos amplamente utilizado para a transmissão e armazenamento de dados entre sistemas computacionais. Devido à sua simplicidade e capacidade de ser interpretado facilmente por humanos e máquinas, JSON tornou-se uma escolha popular em diversas linguagens de programação.
+
+O formato JSON é baseado em uma estrutura de pares chave-valor, que permite representar dados de forma hierárquica e organizada. Esses pares chave-valor são encapsulados por chaves {} para objetos e colchetes [] para arrays, facilitando a modularização e recuperação de informações complexas de maneira eficiente.
+
+Uma das características fundamentais do JSON é que ele não permite o uso de funções ou comentários dentro do texto, visando manter o formato minimalista e focado exclusivamente em dados. Além disso, tanto as chaves quanto os valores de string devem ser encapsulados em aspas duplas, o que diferencia JSON de alguns outros formatos que permitem aspas simples.
+
+Essas regras fazem do JSON um formato extremamente robusto, portátil e fácil de integrar, sendo amplamente utilizado em APIs web, configurações de softwares, comunicação entre serviços de microserviços e muitos outros contextos onde a troca de dados de forma clara e eficaz é crucial.
+
+# Diagrama de funcionamento
+![alt text](image-1.png)
+
+### Sonnen customuser :
+Essa tabela representa os usúarios do sistemas, que podem possuir diferentes tipos de permissões e participar de diferentes grupos.
+
+**Exemplo:** Pode-se ter úsuario para diferentes tipos de clientes, um úsuario para os técnicos-auxiliares e todos esses usúarios possuem diferente tipos de permissões dentro da API.
+
+### Sonnen company 
+Armazena informações sobre empresas associadas aos usuários, um usuário pode ter mais de uma empresa.
+
+### Sonnen address
+
+
+### Sonnen measure
+
+### Sonnen component
