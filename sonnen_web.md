@@ -47,11 +47,15 @@ Uma das características fundamentais do JSON é que ele não permite o uso de f
 
 Essas regras fazem do JSON um formato extremamente robusto, portátil e fácil de integrar, sendo amplamente utilizado em APIs web, configurações de softwares, comunicação entre serviços de microserviços e muitos outros contextos onde a troca de dados de forma clara e eficaz é crucial.
 
-# Diagrama de funcionamento
+# Diagrama da API
 ![alt text](image-1.png)
 
 ### Sonnen customuser :
 Esta tabela armazena os usuários do sistema, que podem ter diferentes níveis de acesso e permissões, e pertencer a vários grupos. Essa estrutura permite uma distinção clara entre os papéis dos usuários, como clientes de diferentes categorias, técnicos e assistentes, cada um com diferentes níveis de acesso e permissões dentro da API.
+
+**Auth group e permission:** Defini os grupos e as permissões que serão relacionadas aos usuários individualmente ou em grupo.
+
+**Sonnen customuser groups e permissions:** Relaciona os usúarios aos seus grupos e permissões.
 
 
 ### Sonnen company 
@@ -62,3 +66,4 @@ Representa as estações meteorológicas que coletam os dados ambientais. Estas 
 
 ### Sonnen measure
 Esta tabela guarda os dados coletados pelas estações meteorológicas. A tabela 'Sonnen Component' associada permite definir quais dados específicos são acessíveis aos clientes, dependendo do plano de serviço contratado. Isso permite uma personalização do serviço oferecido, otimizando a experiência do usuário e alinhando as funcionalidades disponíveis com as necessidades específicas de cada cliente.
+
