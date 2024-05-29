@@ -51,16 +51,14 @@ Essas regras fazem do JSON um formato extremamente robusto, portátil e fácil d
 ![alt text](image-1.png)
 
 ### Sonnen customuser :
-Essa tabela representa os usúarios do sistemas, que podem possuir diferentes tipos de permissões e participar de diferentes grupos.
+Esta tabela armazena os usuários do sistema, que podem ter diferentes níveis de acesso e permissões, e pertencer a vários grupos. Essa estrutura permite uma distinção clara entre os papéis dos usuários, como clientes de diferentes categorias, técnicos e assistentes, cada um com diferentes níveis de acesso e permissões dentro da API.
 
-**Exemplo:** Pode-se ter úsuario para diferentes tipos de clientes, um úsuario para os técnicos-auxiliares e todos esses usúarios possuem diferente tipos de permissões dentro da API.
 
 ### Sonnen company 
-Armazena informações sobre empresas associadas aos usuários, um usuário pode ter mais de uma empresa.
+Esta tabela contém informações sobre empresas que estão associadas aos usuários. Um único usuário pode estar associado a várias empresas, facilitando a gestão de múltiplas entidades sob um único login.
 
-### Sonnen address
-
+### Sonnen station
+Representa as estações meteorológicas que coletam os dados ambientais. Estas estações estão vinculadas às empresas dos clientes e são a fonte primária dos dados meteorológicos que são processados e apresentados aos usuários através da plataforma.
 
 ### Sonnen measure
-
-### Sonnen component
+Esta tabela guarda os dados coletados pelas estações meteorológicas. A tabela 'Sonnen Component' associada permite definir quais dados específicos são acessíveis aos clientes, dependendo do plano de serviço contratado. Isso permite uma personalização do serviço oferecido, otimizando a experiência do usuário e alinhando as funcionalidades disponíveis com as necessidades específicas de cada cliente.
